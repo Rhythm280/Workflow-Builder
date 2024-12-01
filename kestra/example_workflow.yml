@@ -1,0 +1,7 @@
+id: test-workflow
+namespace: examples
+tasks:
+  - id: test-task
+    type: io.kestra.core.tasks.scripts.ScriptTask
+    script: |
+      echo "Hello, Kestra!"
